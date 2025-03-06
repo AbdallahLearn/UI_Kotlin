@@ -1,0 +1,69 @@
+# Ignore Android/IntelliJ specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+local.properties
+.DS_Store
+/.gradle
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Build output
+/build/
+.gradle/
+captures/
+output.json
+
+# APK, AAB, and signing files
+*.apk
+*.aab
+*.ap_
+*.keystore
+
+# Kotlin/Java specific
+*.class
+*.jar
+*.war
+*.ear
+*.kotlin_module
+
+# Jetpack Compose Preview Caches
+.idea/deploymentTargetDropDown.xml
+.idea/sonarlint/
+.idea/vcs.xml
+
+# macOS specific
+*.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux specific
+*~
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+gradlew
+gradlew.bat
+gradle/
+
+# Log files
+*.log
+log/
+
+# Environment files
+*.env
+.env.local
+.env.development
+.env.production
+.env.test
